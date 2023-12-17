@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
 import { Link, useLocation } from 'react-router-dom';
-import axiosWC from '../utils';
 
 function Navbar() {
   const location = useLocation();
