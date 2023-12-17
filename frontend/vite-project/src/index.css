@@ -1,0 +1,207 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Style the outer container */
+.container {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 999;
+}
+
+
+
+/* Style the Menubar component */
+.menu {
+  background-color: #555;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Style Menubar links */
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Change link color on hover */
+.menu a:hover {
+  color: #ff5733;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------siginup */
+
+/* Style the container div */
+.register {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 300px;
+  top: 5;
+  margin-left: 230%;
+  width: 100%;
+  margin-top: 20%;
+}
+
+
+
+
+/* Style the form element */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the form labels */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style the form input fields */
+input {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Style the submit button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color: #0056b3;
+}
+
+.right-logout {
+  margin-left: 1290%;
+}
+
+
+.user-dashboard {
+  margin-left: 250%; 
+  width: 150%;
+}
+
+
+.user-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-info td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.user-info td:first-child {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .user-info td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .user-info td:first-child {
+    background-color: inherit;
+  }
+}
